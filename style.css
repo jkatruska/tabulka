@@ -1,0 +1,101 @@
+p{
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+body{
+    background-color: #ecf0f1;
+    width:1400px;
+}
+.row{
+    float:left;
+}
+.yellow{
+    background-color:yellow;
+}
+.gray{
+    background-color: #95a5a6;
+}
+.green{
+    background-color: #27ae60;
+}
+.blue{
+    background-color: #2980b9;
+}
+.orange{
+    background-color: #f39c12;
+}
+.pink{
+    background-color: #9b59b6;
+}
+.block{
+    width:68px;
+    height:80px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.one{
+    margin-top:80px;
+}
+.two{
+    margin-top:160px;
+}
+.three{
+    margin-top:240px;
+}
+.clear{
+    clear:both;
+}
+.number{
+    width:90%;
+    height:5%;
+    padding-left:10%;
+    padding-top:5%;
+}
+.shortcut{
+    font-family:sans-serif;
+    width: 100%;
+    text-align: center;
+    height: 30%;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-bottom: 16%;
+}
+.name{
+    width:100%;
+    height:10%;
+    text-align:center;
+}
+.open{
+    visibility:hidden;
+}
+.open:target{
+    visibility:visible;
+}
+.box{
+    width: 355px;
+    border-radius: 2px;
+    padding: 1%;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    background-color: #3498db;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.lat{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.close{
+    float:right;
+}
+.wrap {
+    margin-top: 30px;
+    margin-left: 210px;
+}
