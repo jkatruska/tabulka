@@ -75,14 +75,18 @@ body{
 }
 .open:target{
     visibility:visible;
+    position: fixed;
+    top: 50px;
+    left: 300px;
+    margin:0;
 }
 .box{
     width: 355px;
     border-radius: 2px;
     padding: 1%;
-    position: absolute;
-    top: 90px;
-    left: 300px;
+    position:fixed;
+    top:0;
+    left:0;
     background-color: #3498db;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -98,4 +102,9 @@ body{
 .wrap {
     margin-top: 30px;
     margin-left: 210px;
+}
+#clearer {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
